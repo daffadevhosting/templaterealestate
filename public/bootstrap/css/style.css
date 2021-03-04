@@ -1680,7 +1680,7 @@ li.comment.depth-1:before,li.comment.depth-2.parent:before{
         z-index:99
     }
     .site-header.sticked{
-        background-color:#222;
+        background-color:#17a2b8;
         position:fixed;
 		top:0
     }
