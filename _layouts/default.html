@@ -55,5 +55,25 @@
   {% include back-to-top.html %}
 	</div>
   {% include footer-script.html %}
+<!-- jQuery KR-Box [ Begin ] -->
+<div id="kr-box">
+<a class="close-popup" href="#">&#215;</a>
+<div class="black-bg kaluar"></div>
+<div class="gambar-space">
+<span>Template Sedang Dalam Pengembangan,<br />Base On Bootstrap Jekyll Hosted By Github</span>
+</div>
+</div>
+
+<script type='text/javascript'>
+// JavaScript KR-Box
+$(window).bind("load", function() {
+$('#kr-box').animate({top:"100px"}, 2000);
+$('a.close-popup, .kaluar').click(function() {
+$(this).parent().fadeOut(500);
+return false;
+});
+});
+</script>
+<!-- jQuery KR-Box [ End ] -->
   </body>
 </html>
