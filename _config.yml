@@ -1,0 +1,33 @@
+# Permalinks
+permalink:        /:title
+
+# Setup
+title:            Vila Ciwidey Asri
+tagline:          Perum Semi-Villa
+description:      PROGRAM SEJUTA RUMAH LAYAK HUNI UNTUK RAKYAT
+url:              
+baseurl:          
+rawurl:	          
+# Add this and create headline.html in _includes directory
+# headline: true         
+# Add your google_analytics ID if you need it
+# google_analytics: 
+
+# Pagination number
+paginate:         10
+
+plugins:
+  - jekyll-manager
+
+# category page
+collections:
+  category:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"

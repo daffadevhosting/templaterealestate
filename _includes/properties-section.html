@@ -1,0 +1,32 @@
+<div class="container wide-container section-inner">
+							<div class="section-header section-header-style-default">
+								<h2 class="section-title">Featured properties</h2>
+								<div class="section-desc">
+									<p>Check some of the best properties for sale</p>
+								</div>
+							</div>
+							<div class="row properties-post-entries properties-post-entries-3cols">
+							    {% for proper in site.data.properti %}
+								<div class="properties-post-entry-col col-md-6 col-xl-4">
+									<article class="loop-properties-grid-hentry post-82 ta_properties type-ta_properties status-publish has-post-thumbnail hentry">
+										<div class="entry-thumbnail">
+											<a class="entry-thumbnail-link" href="#" title="AmiVilla">
+                                            <img width="413" height="309" src="{{ proper.img }}" class="attachment-medium size-medium wp-post-image" alt="" /></a>
+											<div class="entry-meta">
+												<div class="entry-price"><span class="tour-price">Rp.{{ proper.harga }}</span></div>
+												<div class="entry-read-more"><a class="read-more-link" href="{{ proper.kontak }}">Enquiry</a></div>
+											</div>
+										</div>
+										<div class="entry-body">
+											<header class="entry-header">
+												<h2 class="entry-title"><a href="h" rel="bookmark">{{ proper.judul }}</a></h2>
+											</header>
+											<div class="entry-summary">
+												<p>{{ proper.isi }}&hellip;</p>
+											</div>
+										</div>
+									</article>
+								</div>
+                                {% endfor %}
+							</div>
+						</div>

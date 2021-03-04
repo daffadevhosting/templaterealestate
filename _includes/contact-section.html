@@ -1,0 +1,35 @@
+<div class="wide-container section-inner">
+
+							<div class="gmap-col" data-role="image-box" data-position="last">
+								<div class="contact-map" data-role="image">
+									<div id="map_canvas" class="gmap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.3174138783584!2d107.45184841428849!3d-7.089155494880295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68f2c81c7774d5%3A0xcad69523559064f!2sPerumahan%20Villa%20Ciwidey%20Asri!5e0!3m2!1sid!2sid!4v1614777127974!5m2!1sid!2sid" width="100%" height="796" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+									<div class="contact-info-wrapper">
+										<div class="contact-info">
+											<div class="contact-info-content">
+												<p>Pasir Pogor No.19, Panyocokan,<br/>Kec. Ciwidey, Bandung, <br/>Jawa Barat 40972<br /> Phone: <a href="tel:">1234 56 7890</a><br />
+													<a href="mailto:">info@villaciwideyasri.com</a><br />
+													<a href="#">villaciwideyasri.com</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- .gmap-col -->
+							<div class="wide-map-section" data-el="fimage-section">
+								<div class="testimonials-col" data-role="content-box" style="background-image:url(/public/images/contact-bg.jpg)">
+							{% for testi in site.data.testimoni %}
+											<div class="testimonial-entry">
+												<div class="entry-body">
+													<p>{{ testi.moni }}</p>
+												</div>
+												<div class="entry-footer">
+													<h4 class="entry-title">{{ testi.nama }}</h4>
+													<p class="entry-info">({{ testi.titel }})</p>
+												</div>
+											</div>
+                            {% endfor %}
+								</div>
+								<!-- .testimonials-col -->
+							</div>
+							<!-- .wide-map-section -->
+						</div>
