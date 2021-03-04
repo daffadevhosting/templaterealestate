@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+<body class="home page-template page-template-tmpl-frontpage page-template-tmpl-frontpage-php page page-id-23 wp-custom-logo">
+	<div id="page" class="site">
+{% if page.layout == "default" %}
+  {% include navbar.html %}
+{% endif %}
+
+{% if page.layout == "page" %}
+{% include navbar-page.html %}
+{% endif %}
+
+{% if page.layout == "post" %}
+{% include navbar-page.html %}
+{% endif %}
+
+{% if page.layout == "category" %}
+{% include navbar-page.html %}
+{% endif %}
+		<div id="content" class="site-content frontpage-content">
+
+			<div id="primary" class="content-area">
+				<main id="main" class="site-main">
+    {% if page.layout == "default" %}
+					<section id="hero" class="section hero-section" data-eltype="frontpagesection">
+  {% include hero-section.html %}
+					</section>
+					<section id="about" class="section about-section" data-eltype="frontpagesection">
+  {% include about-section.html %}
+					</section>
+					<section id="services" class="section services-section" data-eltype="frontpagesection">
+  {% include services-section.html %}
+					</section>
+					<section id="properties" class="section properties-section" data-eltype="frontpagesection">
+  {% include properties-section.html %}
+					</section>
+{% endif %}
+<section id="blog" class="section blog-section" data-eltype="frontpagesection">
+    {{ content }}
+</section>
+					<section id="contact" class="section contact-section" data-eltype="frontpagesection">
+  {% include contact-section.html %}
+					</section>
+				</main>
+			</div>
+		</div>
+  {% include footer.html %}
+  {% include back-to-top.html %}
+	</div>
+  {% include footer-script.html %}
+  </body>
+</html>
