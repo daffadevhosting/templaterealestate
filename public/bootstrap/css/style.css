@@ -2475,20 +2475,22 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
     line-height: 1;
     margin-bottom: 5px;
     outline: none;
-    -webkit-border-radius:0;
+    -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
     font-size: 1.4rem;
-	    border: none;
-    padding: 15px 20px 14px;
-    height: 50px;
-     vertical-align: top; 
-	 font-family:Arial;font-weight:400
+    border: none;
+    padding: 5px 5px 5px;
+    height: 40px;
+    vertical-align: top;
+    font-family: Arial;
+    font-weight: 400;
+    border-radius: 5px;
 }
 textarea {
     height: 100px;
     resize: none;
-    padding: 12px 20px 12px;
+    padding: 5px 5px 5px;
 }
 span.wpcf7-form-control-wrap.your-message{
 	height:100px;
@@ -2759,7 +2761,7 @@ h5,.h5{
     text-transform: uppercase;
     margin-top: 0.2rem;
     padding: 13px 20px 14px;
-	    cursor: pointer;
+	cursor: pointer;
     outline: none;
     text-align: center;
 }
@@ -3413,7 +3415,8 @@ h5,.h5{
 .testimonial-entry {
     max-width: 600px;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 10px;
 }
 @media only screen and (max-width: 991px){
 		#wpadminbar{
@@ -4429,5 +4432,4 @@ a {
 		font-size: 26px;
 	}
 }
-
 
