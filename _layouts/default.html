@@ -40,6 +40,11 @@
 <section id="blog" class="section blog-section" data-eltype="frontpagesection">
     {{ content }}
 </section>
+					    {% if page.layout == "page" %}
+					<section id="blog" class="section blog-section" data-eltype="frontpagesection">
+    {{ content }}
+</section>
+{% endif %}
 					<section id="contact" class="section contact-section" data-eltype="frontpagesection">
   {% include contact-section.html %}
 					</section>
