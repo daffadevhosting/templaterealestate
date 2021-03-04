@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Vila Ciwidey Asri</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2021-03-04T22:47:06+07:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Contoh Artikel Tiga</title>
+   <link href="http://localhost:4000/sample3"/>
+   <updated>2021-03-03T22:14:27+07:00</updated>
+   <id>http://localhost:4000/sample3</id>
+   <content type="html">&lt;p&gt;Rumah murah tapi bukan rumah murahan.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis nibh felis, eget porttitor odio finibus sed.&lt;/p&gt;
+
+&lt;p&gt;Donec eu nisl quis dui interdum aliquet ac nec justo. Maecenas pellentesque aliquet enim, non fringilla augue eleifend et. Maecenas semper ut lacus vel tincidunt. Aliquam lectus est, pellentesque non porttitor vitae, facilisis sed orci. In consequat ex nec purus efficitur, in cursus neque sagittis. Vivamus dapibus ex justo, ut pharetra justo rutrum eget. Donec non malesuada nibh. Vivamus sit amet risus non tortor eleifend sollicitudin a in mauris. Mauris vitae velit velit. Nullam nec nisi rhoncus, porttitor metus vel, varius ipsum. Cras mi lectus, faucibus non nisl non, ultricies commodo lectus. Sed placerat libero sit amet mi maximus aliquet. Aenean imperdiet tortor ut diam ultrices, eu venenatis massa ornare. Aenean mauris libero, scelerisque at eros eget, sodales vestibulum massa.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Contoh Artikel Dua</title>
+   <link href="http://localhost:4000/sample2"/>
+   <updated>2021-03-03T22:14:27+07:00</updated>
+   <id>http://localhost:4000/sample2</id>
+   <content type="html">&lt;p&gt;Kami Akan Memberikan panduan untuk pembeli dalam membeli properti dengan Harga yang tepat, Lokasi Strategis, Kwalitas Makyiiis!!&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis nibh felis, eget porttitor odio finibus sed. Donec eu nisl quis dui interdum aliquet ac nec justo. Maecenas pellentesque aliquet enim, non fringilla augue eleifend et. Maecenas semper ut lacus vel tincidunt. Aliquam lectus est, pellentesque non porttitor vitae, facilisis sed orci. In consequat ex nec purus efficitur, in cursus neque sagittis. Vivamus dapibus ex justo, ut pharetra justo rutrum eget. Donec non malesuada nibh. Vivamus sit amet risus non tortor eleifend sollicitudin a in mauris. Mauris vitae velit velit. Nullam nec nisi rhoncus, porttitor metus vel, varius ipsum. Cras mi lectus, faucibus non nisl non, ultricies commodo lectus. Sed placerat libero sit amet mi maximus aliquet. Aenean imperdiet tortor ut diam ultrices, eu venenatis massa ornare. Aenean mauris libero, scelerisque at eros eget, sodales vestibulum massa.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Contoh Artikel Satu</title>
+   <link href="http://localhost:4000/sample1"/>
+   <updated>2017-07-31T19:31:53+07:00</updated>
+   <id>http://localhost:4000/sample1</id>
+   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis nibh felis, eget porttitor odio finibus sed. Donec eu nisl quis dui interdum aliquet ac nec justo.&lt;/p&gt;
+
+&lt;p&gt;Maecenas pellentesque aliquet enim, non fringilla augue eleifend et. Maecenas semper ut lacus vel tincidunt. Aliquam lectus est, pellentesque non porttitor vitae, facilisis sed orci. In consequat ex nec purus efficitur, in cursus neque sagittis. Vivamus dapibus ex justo, ut pharetra justo rutrum eget. Donec non malesuada nibh. Vivamus sit amet risus non tortor eleifend sollicitudin a in mauris. Mauris vitae velit velit. Nullam nec nisi rhoncus, porttitor metus vel, varius ipsum. Cras mi lectus, faucibus non nisl non, ultricies commodo lectus. Sed placerat libero sit amet mi maximus aliquet. Aenean imperdiet tortor ut diam ultrices, eu venenatis massa ornare. Aenean mauris libero, scelerisque at eros eget, sodales vestibulum massa.&lt;/p&gt;
+
+&lt;p class=&quot;reference&quot;&gt;Reference: put some reference url here&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
