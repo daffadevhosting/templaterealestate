@@ -20,38 +20,51 @@
 	<script type='text/javascript' src='/public/bootstrap/js/jquery-migrate.min.js'></script>
 	<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-<style type="text/css">
-/* KangRian Box CSS */
-@media (max-width:800px){ #kr-box { display:none; } }
-#kr-box {
-position:fixed !important;
-position:absolute;
-top:-700px;
-left:39%;
-margin:0px 0px 0px -182px;
-font:normal Dosis, Georgia, Serif;
-color:#333;
--webkit-box-shadow:0px 0px 10px #333;
--moz-box-shadow:0px 0px 10px #333;
-box-shadow:0px 0px 10px #333;
-background:#fff;
-}
-#kr-box a.close-popup {
-position:absolute;
-top:-25px;
-right:0px;
-font:25px Arial, Sans-Serif;
-text-decoration:none;
-text-align:center;
-color:#f2f2f2;
-cursor:pointer;
-}
-#kr-box a.close-popup:hover { color:#fff; }
-#kr-box a.close-popup:active { opacity:0; }
-#kr-box div.black-bg { background:#000 url(http://3.bp.blogspot.com/-7A606zdRAD8/U10SZcdl9QI/AAAAAAAAE3o/V_9HMnP0fLQ/s1600/ajax-loader-apps.gif) 
-no-repeat center;position:fixed;top:0px;left:0px;width:100%;height:100%;opacity:.6;z-index:-500; }
-#kr-box div.gambar-space { border:5px solid #fff; position:relative; 
-background:#fff;border-bottom:0px;}
-#kr-box div.gambar-space img { width:400px; height:200px; }
-</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" />
+<script language="javascript">
+//<![CDATA[
+jQuery(function($) {
+	$(window).load(function() { 
+		var seconds_pop = 20000; // 20 seconds
+		var expireDate = new Date(); // todays date
+		var minutes = 30;
+		expireDate.setTime(expireDate.getTime() + (minutes * 60 * 1000)); // 1 hour
+
+		var BlogSiteVisit = parseInt(cookieVal("BlogSiteVisit")); // parse in convert str to int // bcus it is content
+		BlogSiteVisit++; // loop by 1
+		
+		if(BlogSiteVisit == 1) { // if BlogSiteVisit if 1
+			document.cookie = "BlogSiteVisit=" + BlogSiteVisit + ";expires=" + expireDate.toGMTString() + ";path=/"; // store cookie 
+			setTimeout(function(){ // then show popup, deley in .5 second
+				
+				$.fancybox.showLoading();  // show loading
+				setTimeout(function(){ // then show popup, deley in .5 second
+					$.fancybox({ // Fancybox Properties
+						'transitionIn' : 'fade',
+						'transitionOut' : 'fade',
+						'overlayColor' : '#000',
+						'overlayOpacity' : '.6',
+						'href' : '#popup_content',
+						'helpers'   : { overlay : {closeClick: false } },
+						'onCleanup' : function() { }
+					});
+				}, 500); // .5 second	
+			}, seconds_pop); 
+		} else { 
+			return; 
+		  }
+		function cookieVal(cookieName) {
+			var thisCookie = document.cookie.split("; "); 
+			for (var i=0; i<thisCookie.length; i++) { 			
+				if (cookieName == thisCookie[i].split("=")[0]) {
+					return thisCookie[i].split("=")[1]; 
+				}
+			}
+		return 0; 
+		}
+	});
+}); // jQuery End
+//]]>
+</script>
 </head>
