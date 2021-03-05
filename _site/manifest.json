@@ -3,7 +3,7 @@
   "short_name": "Villa Ciwidey Asri",
   "description": "Program Sejuta Rumah Untuk Rakyat",
   "lang": "id",
-  "start_url": "https://daffadevhosting.github.io",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#fff",
   "theme_color": "#17a2b8",
