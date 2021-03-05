@@ -5,11 +5,34 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	  <title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Villa Ciwidey Asri" />
+    <meta name="Description" content="Progam Sejuta Rumah Untuk Rakyat" />
+    <link rel="apple-touch-icon" href="public/maskable/maskable_icon_x128.png" />
+	<title>
     
-      Contoh Artikel Satu - Vila Ciwidey Asri
+      Contoh Artikel Satu - Villa Ciwidey Asri
     
     </title>
+	<link rel="apple-touch-icon" sizes="57x57" href="/public/icon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/public/icon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/public/icon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/public/icon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/public/icon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/public/icon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/public/icon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/public/icon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/public/icon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/public/icon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/public/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/public/icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/public/icon/favicon-16x16.png">
+	<link rel="manifest" href="/public/icon/manifest.json">
+	<meta name="msapplication-TileColor" content="#17a2b8">
+	<meta name="msapplication-TileImage" content="/public/icon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#17a2b8">
+    <link rel="manifest" href="/manifest.json">
 	<link rel='stylesheet' id='bootstrap-css' href='/public/bootstrap/css/bootstrap.min.css' type='text/css' media='all' />
     <link rel="stylesheet" id="google-fonts-css" href="https://fonts.googleapis.com/css?family=Nunito%3A400%2C400i%2C600%2C700%7CMontserrat%3A300%2C400%2C600%2C400i&amp;subset=latin%2Clatin-ext&amp;ver=5.1.1" type="text/css" media="all"/>
 	<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700"/>
@@ -18,21 +41,70 @@
 	<link rel='stylesheet' id='realestateagentrealtor-style-css' href='/public/bootstrap/css/style.css' type='text/css' media='all' />
 	<script type='text/javascript' src='/public/bootstrap/js/jquery.js'></script>
 	<script type='text/javascript' src='/public/bootstrap/js/jquery-migrate.min.js'></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" />
+<script language="javascript">
+//<![CDATA[
+jQuery(function($) {
+	$(window).load(function() { 
+		var seconds_pop = 20000; // 20 seconds
+		var expireDate = new Date(); // todays date
+		var minutes = 30;
+		expireDate.setTime(expireDate.getTime() + (minutes * 60 * 1000)); // 1 hour
+
+		var BlogSiteVisit = parseInt(cookieVal("BlogSiteVisit")); // parse in convert str to int // bcus it is content
+		BlogSiteVisit++; // loop by 1
+		
+		if(BlogSiteVisit == 1) { // if BlogSiteVisit if 1
+			document.cookie = "BlogSiteVisit=" + BlogSiteVisit + ";expires=" + expireDate.toGMTString() + ";path=/"; // store cookie 
+			setTimeout(function(){ // then show popup, deley in .5 second
+				
+				$.fancybox.showLoading();  // show loading
+				setTimeout(function(){ // then show popup, deley in .5 second
+					$.fancybox({ // Fancybox Properties
+						'transitionIn' : 'fade',
+						'transitionOut' : 'fade',
+						'overlayColor' : '#000',
+						'overlayOpacity' : '.6',
+						'href' : '#popup_content',
+						'helpers'   : { overlay : {closeClick: false } },
+						'onCleanup' : function() { }
+					});
+				}, 500); // .5 second	
+			}, seconds_pop); 
+		} else { 
+			return; 
+		  }
+		function cookieVal(cookieName) {
+			var thisCookie = document.cookie.split("; "); 
+			for (var i=0; i<thisCookie.length; i++) { 			
+				if (cookieName == thisCookie[i].split("=")[0]) {
+					return thisCookie[i].split("=")[1]; 
+				}
+			}
+		return 0; 
+		}
+	});
+}); // jQuery End
+//]]>
+</script>
 </head>
 
 <body class="home page-template page-template-tmpl-frontpage page-template-tmpl-frontpage-php page page-id-23 wp-custom-logo">
+	
 	<div id="page" class="site">
 
 
 
 
 
-<header id="masthead" class="site-header sticked">
+<header id="masthead" class="site-header sticked" style="background:black;">
 			<div class="container wide-container main-header-container">
 				<div class="site-branding">
 					<a href="/" class="custom-logo-link" rel="home" itemprop="url"></a>
-					<p class="site-title screen-reader-text"><a href="http://localhost:4000" rel="home">Vila Ciwidey Asri</a></p>
+					<p class="site-title screen-reader-text"><a href="http://localhost:4000" rel="home">Villa Ciwidey Asri</a></p>
 				</div>
 				<nav id="site-navigation" class="main-navigation" data-el="aria">
 					<ul id="mastmenu" class="nav primary-menu">
@@ -51,7 +123,7 @@
 			<div class="container wide-container main-header-container">
 				<div class="site-branding">
 					<a href="/" class="custom-logo-link" rel="home" itemprop="url"></a>
-					<p class="site-title screen-reader-text"><a href="http://localhost:4000" rel="home">Vila Ciwidey Asri</a></p>
+					<p class="site-title screen-reader-text"><a href="http://localhost:4000" rel="home">Villa Ciwidey Asri</a></p>
 				</div>
 				<nav id="site-navigation" class="main-navigation" data-el="aria">
 					<ul id="mastmenu" class="nav primary-menu">
@@ -118,6 +190,7 @@
 </div>
 
 </section>
+					    
 					<section id="contact" class="section contact-section" data-eltype="frontpagesection">
   <div class="wide-container section-inner">
 
@@ -137,7 +210,7 @@
 							</div>
 							<!-- .gmap-col -->
 							<div class="wide-map-section" data-el="fimage-section">
-								<div class="testimonials-col" data-role="content-box" style="background-image:url(/public/images/contact-bg.jpg)">
+								<div class="container testimonials-col" data-role="content-box" style="background-image:url(/public/images/contact-bg.jpg)">
 							
 											<div class="testimonial-entry">
 												<div class="entry-body">
@@ -188,7 +261,7 @@
 					<div class="footer-menu-container">
 					</div>
 					<div class="site-info">
-						<p>&copy; 2021, All Rights Reserved, <a href="/">Vila Ciwidey Asri</a>. Theme Developed by <a href="https://ndang.github.io">NdanG</a></p>
+						<p>&copy; 2021, All Rights Reserved, <a href="/">Villa Ciwidey Asri</a>. Theme Developed by <a href="https://ndang.github.io">NdanG</a></p>
 					</div>
 				</div>
 			</div>
@@ -199,11 +272,10 @@
         <span class="screen-reader-text">Back to top</span>
         <i class="fa fa-angle-up"></i></a>
 
-	</div>
-  
-	<script type='text/javascript' src='/public/bootstrap/js/bootstrap.min.js'></script>
+	</div>	<script type='text/javascript' src='/public/bootstrap/js/bootstrap.min.js'></script>
 	<script type='text/javascript' src='/public/bootstrap/js/owl.carousel.min.js'></script>
 	<script type='text/javascript' src='/public/bootstrap/js/customizer.js'></script>
+        <script src="/public/bootstrap/js/wa.js"></script>
 	<script type='text/javascript'>
 		/* <![CDATA[ */
 		var RealestateAgentRealtorLocalize = {
@@ -213,6 +285,18 @@
 		/* ]]> */
 	</script>
 	<script type='text/javascript' src='/public/bootstrap/js/script.min.js'></script>
-
+	<div style="display:none">
+    <div id="popup_content">
+        <p style="text-align: center; font-weight: bold;">Template Sedang Dalam Pengembangan.</p>
+	    <center>Base On Bootstrap For Jekyll, Hosted by Github.</center>
+    </div>
+</div>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js');
+    });
+  }
+</script>
   </body>
 </html>

@@ -72,5 +72,12 @@
 	    <center>Base On Bootstrap For Jekyll, Hosted by Github.</center>
     </div>
 </div>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js');
+    });
+  }
+</script>
   </body>
 </html>

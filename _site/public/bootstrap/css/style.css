@@ -1648,7 +1648,7 @@ li.comment.depth-1:before,li.comment.depth-2.parent:before{
 }
 @media (max-width:991px){
     .site-header{
-        background-color:#222
+        background-color:#17a2b8
     }
     .site-branding{
         max-width:70%
@@ -1680,7 +1680,7 @@ li.comment.depth-1:before,li.comment.depth-2.parent:before{
         z-index:99
     }
     .site-header.sticked{
-        background-color:#222;
+        background-color:#17a2b8;
         position:fixed;
 		top:0
     }
@@ -1924,13 +1924,13 @@ li.comment.depth-1:before,li.comment.depth-2.parent:before{
 }
 .section-header-style-2 .section-desc{
 }
-.hero-section{
+.konsultasi-section{
     position:relative;
     overflow:hidden;
     padding:0;
     text-align:center
 }
-.hero-section .section-deco{
+.konsultasi-section .section-deco{
     background-size:cover;
     background-position:center center;
     background-repeat:no-repeat;
@@ -1943,43 +1943,43 @@ li.comment.depth-1:before,li.comment.depth-2.parent:before{
     -ms-transform:translateY(-50%);
     transform:translateY(-50%)
 }
-.hero-section .section-deco:before{
+.konsultasi-section .section-deco:before{
     content:'';
     display:block;
     padding-top:42.56%
 }
-.hero-section .section-inner{
+.konsultasi-section .section-inner{
     position:relative;
     z-index:1;
     display:table;
     width:100%
 }
-.hero-section .section-body{
+.konsultasi-section .section-body{
     display:table-cell;
     vertical-align:middle;
     padding:64px 0
 }
-.hero-section .section-thumbnail{
+.konsultasi-section .section-thumbnail{
     margin:0 0 24px
 }
-.hero-section .section-header{
+.konsultasi-section .section-header{
     display:block;
     margin:0 auto;
     max-width:800px
 }
-.hero-section .section-desc,.hero-section .section-title{
+.konsultasi-section .section-desc,.konsultasi-section .section-title{
     color:#fff
 }
-.hero-section .section-title{
+.konsultasi-section .section-title{
     font-weight:400;
     line-height:1
 }
-.hero-section .section-desc{
+.konsultasi-section .section-desc{
     font-size:22px;
     margin-top:40px;
     letter-spacing:0.02em
 }
-.hero-section .action-links{
+.konsultasi-section .action-links{
     color:#fff;
     font-weight:900;
     font-size:12px;
@@ -1989,57 +1989,57 @@ li.comment.depth-1:before,li.comment.depth-2.parent:before{
     padding:0;
     margin:40px 0 0 -4px
 }
-.hero-section .action-links li{
+.konsultasi-section .action-links li{
     display:inline-block;
     padding-left:4px
 }
-.hero-section .action-links li:after{
+.konsultasi-section .action-links li:after{
     content:'/';
     margin-left:8px
 }
-.hero-section .action-links li:last-child:after{
+.konsultasi-section .action-links li:last-child:after{
     display:none
 }
-.hero-section .action-links a{
+.konsultasi-section .action-links a{
     color:inherit;
     text-decoration:underline;
     -webkit-transition:all 240ms;
     -o-transition:all 240ms;
     transition:all 240ms
 }
-.hero-section .action-links a:focus,.hero-section .action-links a:hover{
+.konsultasi-section .action-links a:focus,.konsultasi-section .action-links a:hover{
     opacity:0.75
 }
 @media (max-width:767px){
-    .hero-section .section-title{
+    .konsultasi-section .section-title{
         font-size:32px;
         font-weight:700
     }
-    .hero-section .section-desc{
+    .konsultasi-section .section-desc{
         font-size:16px
     }
 }
 @media (min-width:768px){
-    .hero-section .section-title{
+    .konsultasi-section .section-title{
         font-size:64px;
         line-height:0.96875
     }
 }
 @media (min-width:991px){
-    .hero-section .section-inner{
+    .konsultasi-section .section-inner{
         height:640px
     }
-    .hero-section .section-body{
+    .konsultasi-section .section-body{
         padding-top:100px
     }
 }
 @media (min-width:1200px){
-    .hero-section .section-body{
+    .konsultasi-section .section-body{
         padding-top:215px
     }
 }
 @media (min-width:1600px){
-    .hero-section .section-inner{
+    .konsultasi-section .section-inner{
         height:927px
     }
 }
@@ -2475,20 +2475,22 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
     line-height: 1;
     margin-bottom: 5px;
     outline: none;
-    -webkit-border-radius:0;
+    -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
     font-size: 1.4rem;
-	    border: none;
-    padding: 15px 20px 14px;
-    height: 50px;
-     vertical-align: top; 
-	 font-family:Arial;font-weight:400
+    border: none;
+    padding: 5px 5px 5px;
+    height: 40px;
+    vertical-align: top;
+    font-family: Arial;
+    font-weight: 400;
+    border-radius: 5px;
 }
 textarea {
     height: 100px;
     resize: none;
-    padding: 12px 20px 12px;
+    padding: 5px 5px 5px;
 }
 span.wpcf7-form-control-wrap.your-message{
 	height:100px;
@@ -2642,26 +2644,26 @@ h5,.h5{
 }
 
 /*======================== Banner ========================*/
-.section.hero-section {
+.section.konsultasi-section {
     padding: 0;
 }
 .main-header-container:after {
     display: none;
 }
 
-.hero-section .section-header {
+.konsultasi-section .section-header {
     width: 50%;
     float: left;
     text-align: left;
     padding-top: 39px;
 }
 
-.hero-section .section-form {
+.konsultasi-section .section-form {
     width: 37.5%;
     float: right;
 }
 
-.hero-section .section-header .section-title {
+.konsultasi-section .section-header .section-title {
     font-size: 5.6rem;
     font-weight: 900;
     text-transform: uppercase;
@@ -2669,7 +2671,7 @@ h5,.h5{
     letter-spacing: 0;
 }
 
-.hero-section .section-desc p {
+.konsultasi-section .section-desc p {
     font-weight: 600;
     font-size: 26px;
     text-transform: uppercase;
@@ -2677,7 +2679,7 @@ h5,.h5{
     line-height: 1.35;
 }
 
-.hero-section .section-desc h4 {
+.konsultasi-section .section-desc h4 {
     font-size: 30px;
     font-weight: 900;
     text-transform: uppercase;
@@ -2685,12 +2687,12 @@ h5,.h5{
 	color:#fff
 }
 
-.hero-section .section-desc {
+.konsultasi-section .section-desc {
     margin-top: 5.3rem;
     max-width: 40rem;
 }
 
-.hero-section form.wpcf7-form {
+.konsultasi-section form.wpcf7-form {
     background: -moz-linear-gradient(322deg, rgba(255,255,255,1) 0%, rgba(107,182,224,0.61) 100%); /* ff3.6+ */
     background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(107,182,224,0.61))); /* safari4+,chrome */
     background: -webkit-linear-gradient(322deg, rgba(255,255,255,1) 0%, rgba(107,182,224,0.61) 100%); /* safari5.1+,chrome10+ */
@@ -2703,20 +2705,20 @@ h5,.h5{
     padding: 4.25rem 5.2rem;
     border-radius: 8px;
 }
-.hero-section .section-desc h4 a {
+.konsultasi-section .section-desc h4 a {
     color: #ffffff;
 }
 
-.hero-section form.wpcf7-form h5 {
+.konsultasi-section form.wpcf7-form h5 {
     font-size: 22px;
     font-weight: 600;
     color: #000000;
     margin-bottom: 2.8rem;
 }
 
-.hero-section form.wpcf7-form input,
-.hero-section form.wpcf7-form select,
-.hero-section form.wpcf7-form textarea {
+.konsultasi-section form.wpcf7-form input,
+.konsultasi-section form.wpcf7-form select,
+.konsultasi-section form.wpcf7-form textarea {
     font-size: 1.4rem;
     color: #000000;
     width: 100%;
@@ -2727,30 +2729,30 @@ h5,.h5{
     border-radius: 5px;
 }
 
-.hero-section form.wpcf7-form label {
+.konsultasi-section form.wpcf7-form label {
     width: 100%;
     vertical-align: top;
     margin-bottom: 2.1rem;
 }
 
-.hero-section form.wpcf7-form textarea {
+.konsultasi-section form.wpcf7-form textarea {
     height: 100px;
     padding: 12px 20px 12px;
     resize: none;
 }
 
-.hero-section form.wpcf7-form select {/* for Firefox */
+.konsultasi-section form.wpcf7-form select {/* for Firefox */
     -moz-appearance: none;    /* for Chrome */
     -webkit-appearance: none;
     background: url(../images/icon-select.png) #fff;
     background-repeat: no-repeat;
     background-position: 94% center;
 }
-.hero-section form.wpcf7-form p {
+.konsultasi-section form.wpcf7-form p {
     margin: 0;
 }
 
-.hero-section form.wpcf7-form input.wpcf7-submit {
+.konsultasi-section form.wpcf7-form input.wpcf7-submit {
     height: 47px;
     background-color: #44586c;
     color: #ffffff;
@@ -2759,20 +2761,21 @@ h5,.h5{
     text-transform: uppercase;
     margin-top: 0.2rem;
     padding: 13px 20px 14px;
-	    cursor: pointer;
+	cursor: pointer;
     outline: none;
+    text-align: center;
 }
-.hero-section form.wpcf7-form  span.wpcf7-not-valid-tip {
+.konsultasi-section form.wpcf7-form  span.wpcf7-not-valid-tip {
     display: none;
 }
-.hero-section form.wpcf7-form input.wpcf7-not-valid {
+.konsultasi-section form.wpcf7-form input.wpcf7-not-valid {
     -webkit-box-shadow: 0px 0px 0px 1px rgba(255,0,0,1);
     -moz-box-shadow: 0px 0px 0px 1px rgba(255,0,0,1);
     box-shadow: 0px 0px 0px 1px rgba(255,0,0,1);
 }
-/*.hero-section form.wpcf7-form div.wpcf7-validation-errors,
-.hero-section form.wpcf7-form div.wpcf7-acceptance-missing,
-.hero-section form.wpcf7-form div.wpcf7-response-output {
+/*.konsultasi-section form.wpcf7-form div.wpcf7-validation-errors,
+.konsultasi-section form.wpcf7-form div.wpcf7-acceptance-missing,
+.konsultasi-section form.wpcf7-form div.wpcf7-response-output {
     border: none;
     position: absolute;
     margin: 0;
@@ -3128,6 +3131,7 @@ h5,.h5{
 }
 .post {
     margin-top: 50px;
+    max-width: 750px;
 }
 
 .section .section-inner {
@@ -3375,17 +3379,17 @@ h5,.h5{
 .section-subtitle{ margin-top: 50px;text-align: center; }
 }
 @media only screen and (max-width: 1199px) {
-	.hero-section .section-inner {
+	.konsultasi-section .section-inner {
 		height: 800px;
 	}
-	.hero-section .section-body {
+	.konsultasi-section .section-body {
 		padding: 150px 0 40px;
 	}
-	.hero-section .section-header .section-title{
+	.konsultasi-section .section-header .section-title{
 		    font-size: 4rem;
 	}
-	.hero-section form.wpcf7-form{padding:20px 15px}
-	.hero-section form.wpcf7-form input.wpcf7-submit{
+	.konsultasi-section form.wpcf7-form{padding:20px 15px}
+	.konsultasi-section form.wpcf7-form input.wpcf7-submit{
 		font-size:1.4rem
 	}
 	.properties-section .properties-post-entry-col{
@@ -3412,7 +3416,8 @@ h5,.h5{
 .testimonial-entry {
     max-width: 600px;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 10px;
 }
 @media only screen and (max-width: 991px){
 		#wpadminbar{
@@ -3488,21 +3493,21 @@ h5,.h5{
 	}
 	
 	
-	.hero-section .section-header .section-title {
+	.konsultasi-section .section-header .section-title {
 		font-size: 3rem;
 	}
-	.hero-section .section-desc {
+	.konsultasi-section .section-desc {
 		margin-top: 15px;
 	}
-	.hero-section .section-desc p{    font-size: 1.8rem;}
-	.hero-section .section-desc h4{font-size:2.2rem}
-	.hero-section .section-header{width:100%;float:none}
-	.hero-section .section-form {
+	.konsultasi-section .section-desc p{    font-size: 1.8rem;}
+	.konsultasi-section .section-desc h4{font-size:2.2rem}
+	.konsultasi-section .section-header{width:100%;float:none}
+	.konsultasi-section .section-form {
 		width: 100%;
 		float: none;
 		margin-top: 30px;
 	}
-	.hero-section form.wpcf7-form{
+	.konsultasi-section form.wpcf7-form{
 		max-width:100%
 	}
 	.section{
@@ -3596,7 +3601,7 @@ h5,.h5{
 	.main-header-container{
 		height:104px
 	}
-	.hero-section .section-body {
+	.konsultasi-section .section-body {
 		padding: 100px 0 50px;
 	}
 }
@@ -4428,5 +4433,4 @@ a {
 		font-size: 26px;
 	}
 }
-
 

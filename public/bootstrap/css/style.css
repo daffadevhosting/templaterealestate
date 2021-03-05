@@ -1648,7 +1648,7 @@ li.comment.depth-1:before,li.comment.depth-2.parent:before{
 }
 @media (max-width:991px){
     .site-header{
-        background-color:#222
+        background-color:#17a2b8
     }
     .site-branding{
         max-width:70%

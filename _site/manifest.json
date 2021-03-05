@@ -1,0 +1,48 @@
+{
+  "name": "Villa Ciwidey Asri",
+  "short_name": "Villa Ciwidey Asri",
+  "description": "Program Sejuta Rumah Untuk Rakyat",
+  "lang": "id",
+  "start_url": "https://daffadevhosting.github.io",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#17a2b8",
+  "icons": [
+    {
+      "src": "/public/icon/apple-icon-120x120.png",
+      "sizes": "128x128",
+      "type": "image/png",
+	  "purpose": "any maskable"
+    },
+    {
+      "src": "/public/icon/apple-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+	  "purpose": "any maskable"
+    },
+    {
+      "src": "/public/icon/apple-icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+	  "purpose": "any maskable"
+    },
+    {
+      "src": "/public/icon/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+	  "purpose": "any maskable"
+    },
+    {
+      "src": "/public/icon/ms-icon-310x310.png",
+      "sizes": "256x256",
+      "type": "image/png",
+	  "purpose": "any maskable"
+    },
+    {
+      "src": "/public/icon/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+	  "purpose": "any maskable"
+    }
+  ],
+}
