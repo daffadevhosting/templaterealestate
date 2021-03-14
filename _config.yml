@@ -6,7 +6,7 @@ title:            Villa Ciwidey Asri
 tagline:          Perumahan Semi-Villa
 description:      PROGRAM SEJUTA RUMAH LAYAK HUNI UNTUK RAKYAT
 url:              
-baseurl:          /templaterealestate/
+baseurl:          https://daffadevhosting.github.io/templaterealestate/
 rawurl:	          
 # Add this and create headline.html in _includes directory
 # headline: true         
